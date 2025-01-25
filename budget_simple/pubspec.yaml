@@ -1,0 +1,45 @@
+name: budget_simple
+description: A simple budget app.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.5.1+20
+
+environment:
+  sdk: '>=2.19.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  drift: ^2.13.0
+  sqlite3_flutter_libs: ^0.5.0
+  path_provider: ^2.1.3
+  path: ^1.9.0
+  package_info_plus: ^8.0.0
+  shared_preferences: ^2.2.3
+  system_theme: ^3.0.0
+  intl: ^0.19.0
+  implicitly_animated_list: ^2.2.0
+  universal_io: ^2.2.0
+  simple_animations: ^5.0.2
+  sa3_liquid: ^1.0.1
+  url_launcher: ^6.2.6
+  device_preview: ^1.1.1
+  auto_size_text: ^3.0.0
+  flutter_local_notifications: ^17.2.1+1
+  in_app_purchase: ^3.2.0
+  in_app_review: ^2.0.9
+  flutter_timezone: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  drift_dev: ^2.13.0
+  build_runner: ^2.1.1
+
+flutter:
+  uses-material-design: true
+  assets:
+   - assets/icons/
+   - assets/onboard/
+   - assets/cashew-promo/
+   - assets/translations/translationsAppKeyed.json
